@@ -1,0 +1,51 @@
+{
+    "author": "Bengalbot",
+    "dependencies": {},
+    "keywords": [],
+    "name": "rip-pebble",
+    "pebble": {
+        "displayName": "RIP Pebble",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/tombstone.png",
+                    "name": "TOMBSTONE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/stillallocated0b.png",
+                    "name": "STILL_ALLOCATED_0B",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/sick-mac.png",
+                    "name": "MAC_SICK",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/sad-winos.png",
+                    "name": "SAD_WINOS",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "6c400130-36f2-48ed-812b-96df028e64ee",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "2.0.0"
+}
